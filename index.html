@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2 style="text-align: center;">Students Submission Form</h2>
+    <br>
+    <div class="table-1">
+
+        <h2>Student Information</h2>
+        <form id="studentForm">
+
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required><br>
+
+
+            <label for="dob">Date of Birth</label>
+            <input type="text"  id="dob" name="dob" required> 
+
+            <label for="idcard">I'd Card</label>
+            <input type="number" id="idcard" name="idcard" required><br>
+
+            <label for="phone">Phone Number</label>
+            <input type="number" id="phone" name="phone" required><br>
+
+            
+
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" required><br>
+
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender" required>
+                <option value="">Select gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+
+    </div>
+
+
+    <br>
+    <br><br>
+
+    <div class="table-1">
+
+        <h2>Education </h2>
+
+        <label for="degree">Degree</label>
+        <input type="text" id="degree" name="degree" required>
+
+        <label for="college">College</label>
+        <input type="text" id="college" name="college" required>
+
+        <label for="totalmarks">Total Marks</label>
+        <input type="text" id="totalmarks" name="totalmarks" required>
+
+        <label for="obtainedmarks">Obtained Marks</label>
+        <input type="text" name="obtainedmarks" id="obtainedmarks" required> </input>
+        <br> <br>
+        <button type="submit" value="Submit">ADD</button>
+    </div>
+
+    <br><br>
+
+    <div class="table-2">
+
+        <table class="table" id="educationTable">
+            <tr>
+                <th>Given Details</th>
+                <th> Obtained Details</th>
+            </tr>
+            <tbody></tbody>
+        </table>
+
+        </form>
+    </div>
+
+
+
+
+
+
+    <!-- <br><br><br>
+            <button type="submit" value="submit">Submit</button> -->
+
+
+    <script src="index.js">
+
+    </script>
+
+</body>
+
+</html>

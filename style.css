@@ -1,0 +1,36 @@
+body{
+        background-color: rgb(134, 186, 231);
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+table, th, tr{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+
+}
+.table-1{
+    text-align: center;
+    border: 1px solid red;
+    padding-bottom: 20px;
+    border-radius: 20%;
+    background-color: antiquewhite;
+    
+    margin-left: 30%;
+    margin-right: 30%;
+
+}
+.table-2{
+    border: 2px;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgb(96, 231, 91);
+}
